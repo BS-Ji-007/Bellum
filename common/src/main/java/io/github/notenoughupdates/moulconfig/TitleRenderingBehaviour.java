@@ -1,0 +1,8 @@
+package io.github.notenoughupdates.moulconfig;
+
+public enum TitleRenderingBehaviour {
+    WIDE_CENTERED,
+    WIDE_CENTERED_UNDERLINED,
+    LEFT,
+    ;
+}
