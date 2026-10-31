@@ -29,20 +29,14 @@ pluginManagement {
 rootProject.name = "MoulConfig"
 
 include("common")
-include("legacy")
 include("modern")
 listOf(
-	"1.21.4",
-	"1.21.5",
-	"1.21.7",
-	"1.21.10",
-	"1.21.11",
     "26.1",
     "26.2",
     "26.3"
 ).forEach { version ->
-	val modPath = "modern:$version"
-	include(modPath)
-	project(":$modPath").name = "modern-$version"
+    val modPath = "modern:$version"
+    include(modPath)
+    project(":$modPath").name = "modern-$version"
 }
 includeBuild("build-src")
