@@ -26,7 +26,7 @@ pluginManagement {
 	}
 }
 
-rootProject.name = "MoulConfig"
+rootProject.name = "Bellum"
 
 include("common")
 include("modern")

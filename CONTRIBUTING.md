@@ -39,4 +39,5 @@ to find the next version, so:
 Don't be scared of labeling a breaking change a breaking change, even if it is only a small one. Since people typically
 vendor our library and do not need to be up to date all the time.
 
+//TODO: BAAD ME KARENGE
 [the maven]: https://maven.notenoughupdates.org/#/releases/org/notenoughupdates/moulconfig/MoulConfig
